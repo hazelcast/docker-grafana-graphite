@@ -94,7 +94,7 @@ ADD     ./grafana/export-datasources-and-dashboards.sh /src/
 ADD     ./nginx/nginx.conf /etc/nginx/nginx.conf
 RUN     mkdir /var/log/supervisor
 ADD     ./supervisord.conf /etc/supervisor/conf.d/supervisord.conf
-
+RUN     chown -R www /var/lib/nginx/
 
 # ---------------- #
 #   Expose Ports   #

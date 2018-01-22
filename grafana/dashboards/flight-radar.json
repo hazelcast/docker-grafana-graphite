@@ -1,40 +1,4 @@
 {
-  "__inputs": [
-    {
-      "name": "DS_LOCAL_GRAPHITE",
-      "label": "Local Graphite",
-      "description": "",
-      "type": "datasource",
-      "pluginId": "graphite",
-      "pluginName": "Graphite"
-    }
-  ],
-  "__requires": [
-    {
-      "type": "grafana",
-      "id": "grafana",
-      "name": "Grafana",
-      "version": "4.6.1"
-    },
-    {
-      "type": "panel",
-      "id": "graph",
-      "name": "Graph",
-      "version": ""
-    },
-    {
-      "type": "datasource",
-      "id": "graphite",
-      "name": "Graphite",
-      "version": "1.0.0"
-    },
-    {
-      "type": "panel",
-      "id": "singlestat",
-      "name": "Singlestat",
-      "version": ""
-    }
-  ],
   "annotations": {
     "list": [
       {
@@ -65,7 +29,7 @@
           "bars": false,
           "dashLength": 10,
           "dashes": false,
-          "datasource": "${DS_LOCAL_GRAPHITE}",
+          "datasource": null,
           "decimals": null,
           "fill": 1,
           "id": 1,
@@ -162,7 +126,7 @@
           "bars": false,
           "dashLength": 10,
           "dashes": false,
-          "datasource": "${DS_LOCAL_GRAPHITE}",
+          "datasource": null,
           "fill": 1,
           "id": 2,
           "legend": {
@@ -270,7 +234,7 @@
             "rgba(237, 129, 40, 0.89)",
             "#d44a3a"
           ],
-          "datasource": "${DS_LOCAL_GRAPHITE}",
+          "datasource": null,
           "format": "none",
           "gauge": {
             "maxValue": 100,
@@ -343,7 +307,7 @@
             "rgba(237, 129, 40, 0.89)",
             "#d44a3a"
           ],
-          "datasource": "${DS_LOCAL_GRAPHITE}",
+          "datasource": null,
           "format": "none",
           "gauge": {
             "maxValue": 100,
@@ -416,7 +380,7 @@
             "rgba(237, 129, 40, 0.89)",
             "#d44a3a"
           ],
-          "datasource": "${DS_LOCAL_GRAPHITE}",
+          "datasource": null,
           "format": "none",
           "gauge": {
             "maxValue": 100,
@@ -489,7 +453,7 @@
             "rgba(237, 129, 40, 0.89)",
             "#d44a3a"
           ],
-          "datasource": "${DS_LOCAL_GRAPHITE}",
+          "datasource": null,
           "format": "none",
           "gauge": {
             "maxValue": 100,
@@ -562,7 +526,7 @@
             "rgba(237, 129, 40, 0.89)",
             "#d44a3a"
           ],
-          "datasource": "${DS_LOCAL_GRAPHITE}",
+          "datasource": null,
           "format": "none",
           "gauge": {
             "maxValue": 100,
@@ -635,7 +599,7 @@
             "rgba(237, 129, 40, 0.89)",
             "#d44a3a"
           ],
-          "datasource": "${DS_LOCAL_GRAPHITE}",
+          "datasource": null,
           "format": "none",
           "gauge": {
             "maxValue": 100,
@@ -720,7 +684,7 @@
             "rgba(3, 221, 10, 0.89)",
             "#d44a3a"
           ],
-          "datasource": "${DS_LOCAL_GRAPHITE}",
+          "datasource": null,
           "format": "none",
           "gauge": {
             "maxValue": 100,
@@ -793,7 +757,7 @@
             "rgb(72, 187, 40)",
             "#d44a3a"
           ],
-          "datasource": "${DS_LOCAL_GRAPHITE}",
+          "datasource": null,
           "format": "none",
           "gauge": {
             "maxValue": 100,
@@ -866,7 +830,7 @@
             "rgb(68, 209, 22)",
             "#d44a3a"
           ],
-          "datasource": "${DS_LOCAL_GRAPHITE}",
+          "datasource": null,
           "format": "none",
           "gauge": {
             "maxValue": 100,
@@ -939,7 +903,7 @@
             "rgb(68, 209, 22)",
             "#d44a3a"
           ],
-          "datasource": "${DS_LOCAL_GRAPHITE}",
+          "datasource": null,
           "format": "none",
           "gauge": {
             "maxValue": 100,
@@ -1012,7 +976,7 @@
             "rgb(68, 209, 22)",
             "#d44a3a"
           ],
-          "datasource": "${DS_LOCAL_GRAPHITE}",
+          "datasource": null,
           "format": "none",
           "gauge": {
             "maxValue": 100,
@@ -1085,7 +1049,7 @@
             "rgb(68, 209, 22)",
             "#d44a3a"
           ],
-          "datasource": "${DS_LOCAL_GRAPHITE}",
+          "datasource": null,
           "format": "none",
           "gauge": {
             "maxValue": 100,

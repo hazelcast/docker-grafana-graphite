@@ -282,7 +282,7 @@
           "targets": [
             {
               "refId": "A",
-              "target": "Frankfurt.TAKING_OFF"
+              "target": "Frankfurt.ASCENDING"
             }
           ],
           "thresholds": "",
@@ -355,7 +355,7 @@
           "targets": [
             {
               "refId": "A",
-              "target": "London.TAKING_OFF"
+              "target": "London.ASCENDING"
             }
           ],
           "thresholds": "",
@@ -428,7 +428,7 @@
           "targets": [
             {
               "refId": "A",
-              "target": "Paris.TAKING_OFF"
+              "target": "Paris.ASCENDING"
             }
           ],
           "thresholds": "",
@@ -501,7 +501,7 @@
           "targets": [
             {
               "refId": "A",
-              "target": "Tokyo.TAKING_OFF"
+              "target": "Tokyo.ASCENDING"
             }
           ],
           "thresholds": "",
@@ -574,7 +574,7 @@
           "targets": [
             {
               "refId": "A",
-              "target": "Atlanta.TAKING_OFF"
+              "target": "Atlanta.ASCENDING"
             }
           ],
           "thresholds": "",
@@ -647,7 +647,7 @@
           "targets": [
             {
               "refId": "A",
-              "target": "New_York.TAKING_OFF"
+              "target": "New_York.ASCENDING"
             }
           ],
           "thresholds": "",
@@ -732,7 +732,7 @@
           "targets": [
             {
               "refId": "A",
-              "target": "Paris.LANDING"
+              "target": "Paris.DESCENDING"
             }
           ],
           "thresholds": "",
@@ -805,7 +805,7 @@
           "targets": [
             {
               "refId": "A",
-              "target": "London.LANDING"
+              "target": "London.DESCENDING"
             }
           ],
           "thresholds": "",
@@ -878,7 +878,7 @@
           "targets": [
             {
               "refId": "A",
-              "target": "Frankfurt.LANDING"
+              "target": "Frankfurt.DESCENDING"
             }
           ],
           "thresholds": "",
@@ -951,7 +951,7 @@
           "targets": [
             {
               "refId": "A",
-              "target": "Tokyo.LANDING"
+              "target": "Tokyo.DESCENDING"
             }
           ],
           "thresholds": "",
@@ -1024,7 +1024,7 @@
           "targets": [
             {
               "refId": "A",
-              "target": "Atlanta.LANDING"
+              "target": "Atlanta.DESCENDING"
             }
           ],
           "thresholds": "",
@@ -1097,7 +1097,7 @@
           "targets": [
             {
               "refId": "A",
-              "target": "New_York.LANDING"
+              "target": "New_York.DESCENDING"
             }
           ],
           "thresholds": "",

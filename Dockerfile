@@ -9,7 +9,7 @@ RUN     apk add --update --no-cache nginx nodejs nodejs-npm git curl wget gcc ca
                                     python-dev py-pip musl-dev libffi-dev cairo supervisor bash \
                                     py-pyldap py-rrd                                                                 &&\
         wget -q -O /etc/apk/keys/sgerrand.rsa.pub \
-                    https://raw.githubusercontent.com/sgerrand/alpine-pkg-glibc/master/sgerrand.rsa.pub              &&\
+                    https://alpine-pkgs.sgerrand.com/sgerrand.rsa.pub                                                &&\
         wget https://github.com/sgerrand/alpine-pkg-glibc/releases/download/2.26-r0/glibc-2.26-r0.apk                &&\
         apk add --no-cache  glibc-2.26-r0.apk                                                                        &&\
         rm glibc-2.26-r0.apk                                                                                         &&\
